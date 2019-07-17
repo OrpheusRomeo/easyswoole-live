@@ -23,7 +23,7 @@
         "easyswoole/socket": "^1.0",
         "dragonmantank/cron-expression": "^2.2",
         "easyswoole/fast-cache": "^1.0",
-        "easyswoole/easyswoole": "3.x-dev",
+        "easyswoole/easyswoole": ">=3.0",
         "easyswoole/actor": "^1.0"
     },
     "require-dev": {
