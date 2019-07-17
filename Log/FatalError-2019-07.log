@@ -1,0 +1,18 @@
+[2019-07-16 18:05:34][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/src/ServerManager.php][line:54]Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[48] in /Users/wangzenan/Code/project/php/easyswoole/src/ServerManager.php:54
+Stack trace:
+#0 /Users/wangzenan/Code/project/php/easyswoole/src/ServerManager.php(54): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /Users/wangzenan/Code/project/php/easyswoole/src/Core.php(116): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /Users/wangzenan/Code/project/php/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /Users/wangzenan/Code/project/php/easyswoole/src/Command/CommandContainer.php(44): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /Users/wangzenan/Code/project/php/easyswoole/src/Command/CommandRunner.php(50): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /Users/wangzenan/Code/project/php/easyswoole/easyswoole(17): EasySwoole\EasySwoole\Command\CommandRunner->run(Arra
+[2019-07-16 18:45:35][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-16 18:46:04][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-17 09:18:54][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-17 09:19:47][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-17 09:22:52][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-17 09:22:54][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-17 09:25:36][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-17 09:26:07][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-17 09:33:05][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
+[2019-07-17 09:33:14][FatalError][file:/Users/wangzenan/Code/project/php/easyswoole/App/HttpController/User.php][line:7]Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found
