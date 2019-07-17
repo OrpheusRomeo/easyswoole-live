@@ -13,10 +13,8 @@ class User extends Controller
         $data['id'] = 101;
         $data['name'] = "jack";
 
-//        $this->response()->write(json_encode($data));
-//        return '/test';
-        $this->writeJson(200, [], 'success');
-        return '/test';
+        $this->response()->write(json_encode($data));
+        return '/User/test';
 
     }
 
