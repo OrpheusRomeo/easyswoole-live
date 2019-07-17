@@ -176,7 +176,6 @@ ENTRYPOINT ["php", "/var/www/code/easyswoole", "start"]
 - [Home Page](https://www.easyswoole.com)
 - [Git For Doc](https://github.com/easy-swoole/doc)
 - [Git For Demo](https://github.com/easy-swoole/demo)
-- QQ Group : **633921431**
+- QQ : **1024245303**
 
-# easyswoole-live
-# easyswoole-live
+此版为修改版,但是只是稍微改变
