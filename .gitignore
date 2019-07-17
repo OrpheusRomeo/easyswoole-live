@@ -4,8 +4,9 @@
 # composer
 /vendor/
 composer.lock
+
+# easySwoole
 /Log/
 /Temp/
 
-# easySwoole
 
